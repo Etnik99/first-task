@@ -11,7 +11,7 @@ function CardItem(props) {
             <div className={style.statusLabel}>
                 <span className={style.status} style={{ backgroundColor: status.color }}>{status.label}</span>
                 <div className={style.profileName}>
-                    <img className={style.profilePicture} src={image} />
+                    <img alt="profile-pic" className={style.profilePicture} src={image} />
                     <p>{author.firstName} {author.lastName}</p>
                 </div>
             </div>
